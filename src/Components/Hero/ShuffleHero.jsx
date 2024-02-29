@@ -120,6 +120,7 @@ const generateSquares = () => {
       style={{
         backgroundImage: `url(${sq.src})`,
         backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     ></motion.div>
   ));
