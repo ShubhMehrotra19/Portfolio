@@ -8,7 +8,13 @@ function Linktab({ linkName }) {
       case 'linkedin':
         return 'rgba(0, 119, 181, 0.78)';
       case 'twitter':
-        return 'rgba(29, 161, 242, 0.78)';
+        return 'rgba(0, 0, 0, 1)';
+      case 'github':
+        return 'rgba(0, 0, 0, 0.8)';
+      case 'figma':
+        return 'rgba(32, 48, 200, 0.8)';
+      case 'leetcode':
+        return 'rgba(222, 192, 52, 0.8)';
       default:
         return 'rgba(17, 25, 40, 0.78)';
     }
@@ -27,7 +33,7 @@ function Linktab({ linkName }) {
         backgroundColor: isHovered ? getBackgroundColor(linkName) : 'rgba(17, 25, 40, 0.78)',
         borderRadius: '12px',
         border: '1px solid rgba(255, 255, 255, 0.125)',
-        transition: 'background-color 0.3s', // Add a smooth transition
+        transition: 'background-color 0.3s',
       }}
       onMouseEnter={handleHover}
       onMouseLeave={handleHover}

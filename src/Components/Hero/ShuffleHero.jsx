@@ -46,67 +46,67 @@ const shuffle = (array) => {
 const squareData = [
     {
       id: 1,
-      src: "/images/MyImages/CodexWinning.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709221023/images/fyyjwr6uwuu4b6x7ngtl.png",
     },
     {
       id: 2,
-      src: "/images/MyImages/Animax_Winning.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709221071/images/yqd564gvtsqidwcwjqen.png",
     },
     {
       id: 3,
-      src: "/images/MyImages/MerakiWinning.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709220924/images/cotzc8iin0y8jutswlje.jpg",
     },
     {
       id: 4,
-      src: "/images/MyImages/Roorkee.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709220898/images/a4cqxq6isrh0iddshavv.png",
     },
     {
       id: 5,
-      src: "/images/MyImages/Shubhpic.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709220901/images/gqqu8n3nxjax7mcuaoc7.png",
     },
     {
       id: 6,
-      src: "/images/MyImages/Roorkee_night.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709220905/images/fzigqyhfwbfursrvv1q2.png",
     },
     {
       id: 7,
-      src: "/images/MyImages/Animax_Winning2.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709221065/images/pvamtqizrxms5as3xk1r.png",
     },
     {
       id: 8,
-      src: "/images/MyImages/MerakiWinning2.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709220892/images/abxhvqzwe4nt9vnqijgy.jpg",
     },
     {
       id: 9,
-      src: "/images/MyImages/gfgEvent.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709227778/images/pqlfy4kfoq0gmdq8q1l6.png",
     },
     {
       id: 10,
-      src: "/images/MyImages/Friends.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709220909/images/yen6lngyiimdsfujb9lb.jpg",
     },
     {
       id: 11,
-      src: "/images/MyImages/Kurta.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709220914/images/yz8tnldapwfnczyfzv4r.png",
     },
     {
       id: 12,
-      src: "/images/MyImages/Sem1.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709220909/images/hhptnkk7oavfuozvgr4z.png",
     },
     {
       id: 13,
-      src: "/images/MyImages/Falcons1.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709220919/images/odfv5hpkgak4etsz9un9.png",
     },
     {
       id: 14,
-      src: "/images/MyImages/gfgEvent1.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709227757/images/nqz0cnbkoxj1yla1qvc2.png",
     },
     {
       id: 15,
-      src: "/images/MyImages/Advitya_23.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709220887/images/z02ufbfo9d59t61x3prb.jpg",
     },
     {
       id: 16,
-      src: "/images/MyImages/GDSC.png",
+      src: "https://res.cloudinary.com/dwftb7joy/image/upload/v1709220911/images/m2eq34dgkojvntzplzkp.jpg",
     },
   ]
 
