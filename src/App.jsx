@@ -1,6 +1,7 @@
 import React from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import ShuffleHero from './Components/Hero/ShuffleHero';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import MainPage from './Components/MainPage/MainPage'
+import Linking from './Components/Linking/Linking';
 
 function App() {
   let docTitle = document.title;
@@ -12,11 +13,12 @@ function App() {
   });
   return (
     <>
-      <Navbar />
-      <div className=' w-full mx-auto flex flex-col justify-center items-center'>
-      <ShuffleHero />
-      </div>
-
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<MainPage />} />
+      <Route path='/connect-with-me' element={<Linking />} />
+    </Routes>
+    </BrowserRouter>
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Menu, X } from 'lucide-react'
+import { NavLink } from 'react-router-dom'
 
 const menuItems = [
   {
@@ -28,7 +29,7 @@ export default function Navbar() {
   }
 
   return (
-    <div className="relative w-full bg-transparent mb-10">
+    <div className="relative w-full bg-transparent mb-16">
       <div className="mx-auto flex max-w-8xl items-center justify-between px-5 py-2 sm:px-6 lg:px-8">
             <img className=' h-12 w-12' src="/images/Shubh_AvatarSmiling.png" alt="" />
         <div className="hidden lg:block">
@@ -46,12 +47,14 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="hidden lg:block">
+          <NavLink>
           <button
             type="button"
             className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-700 hover:scale-105 active:scale-90"
           >
             Lets Connect
           </button>
+          </NavLink>
         </div>
         <div className="lg:hidden">
           <Menu onClick={toggleMenu} className="h-6 w-6 cursor-pointer" />
@@ -88,12 +91,14 @@ export default function Navbar() {
                     ))}
                   </nav>
                 </div>
-                <button
+               <NavLink>
+               <button
             type="button"
             className="mt-2 bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-700 hover:scale-105 active:scale-90"
           >
             Lets Connect
           </button>
+               </NavLink>
               </div>
             </div>
           </div>

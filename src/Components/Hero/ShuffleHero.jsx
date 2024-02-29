@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const ShuffleHero = () => {
   return (
@@ -14,9 +15,11 @@ const ShuffleHero = () => {
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
         🚀 I engineer a perfect blend 🥂 of mischief 🤪 and dedication 🧐, because why not strike a harmonious chord between shenanigans and seriousness?
         </p>
+        <NavLink to='/connect-with-me'>
         <button className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-700 hover:scale-105 active:scale-90">
           Let's Connect
       </button>
+        </NavLink>
       </div>
       <ShuffleGrid />
     </section>
