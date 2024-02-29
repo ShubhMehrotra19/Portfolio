@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Linktab from './Linktab';
+import './Linking.css';
 
 const linkname = ['LinkedIn', 'Github', 'Figma', 'Twitter', 'Leetcode'];
 
