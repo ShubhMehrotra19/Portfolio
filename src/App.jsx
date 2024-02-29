@@ -16,7 +16,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<MainPage />} />
-      <Route path='/connect-with-me' element={<Linking />} />
+      <Route path='/connect' element={<Linking />} />
       <Route path='*' element={<h1>404 Not Found</h1>} />
     </Routes>
     </BrowserRouter>

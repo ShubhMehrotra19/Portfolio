@@ -20,7 +20,7 @@ export default function Navbar() {
         />
 
         <div className="hidden lg:block">
-          <NavLink to='/connect-with-me'>
+          <NavLink to='/connect'>
             <button
               type="button"
               className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-700 hover:scale-105 active:scale-90"
