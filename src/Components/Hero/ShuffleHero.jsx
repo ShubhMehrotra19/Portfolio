@@ -8,11 +8,11 @@ const ShuffleHero = () => {
         <span className="block mb-4 text-sm md:text-md text-indigo-500 font-medium">
           Hey There👋🏽
         </span>
-        <h3 className="text-4xl md:text-6xl font-semibold">
-          I'm Shubh Mehrotra 🙇🏽‍♂️
+        <h3 className="text-4xl md:text-7xl font-semibold">
+          I'm Shubh Mehrotra!
         </h3>
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
-          I am a self-sufficient Web-Developer who designs and develops his websites! I work in a systematic process and create websites with trendy UI.
+        🚀 I engineer a perfect blend 🥂 of mischief 🤪 and dedication 🧐, because why not strike a harmonious chord between shenanigans and seriousness?
         </p>
         <button className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-700 hover:scale-105 active:scale-90">
           Let's Connect

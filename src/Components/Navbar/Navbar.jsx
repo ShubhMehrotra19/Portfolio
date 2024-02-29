@@ -11,7 +11,11 @@ const menuItems = [
     href: '#',
   },
   {
-    name: 'Contact',
+    name: 'Designs',
+    href: '#',
+  },
+  {
+    name: 'Random',
     href: '#',
   },
 ]
@@ -28,12 +32,12 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-8xl items-center justify-between px-5 py-2 sm:px-6 lg:px-8">
             <img className=' h-12 w-12' src="/images/Shubh_AvatarSmiling.png" alt="" />
         <div className="hidden lg:block">
-          <ul className="inline-flex space-x-8">
+          <ul className="inline-flex space-x-8 gap-3">
             {menuItems.map((item) => (
               <li key={item.name}>
                 <a
                   href={item.href}
-                  className="text-sm font-semibold text-gray-800 hover:text-gray-900"
+                  className="text-md pb-1 px-5 font-semibold text-gray-600 hover:text-indigo-700 active:text-sm hover:border-b-2 hover:border-indigo-700 transition-all"
                 >
                   {item.name}
                 </a>
@@ -57,12 +61,7 @@ export default function Navbar() {
             <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
               <div className="px-5 pb-6 pt-5">
                 <div className="flex items-center justify-between">
-                <button
-            type="button"
-            className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-700 hover:scale-105 active:scale-90"
-          >
-            Lets Connect
-          </button>
+                <img className=' h-12 w-12' src="/images/Shubh_AvatarSmiling.png" alt="" />
                   <div className="-mr-2">
                     <button
                       type="button"
@@ -90,11 +89,11 @@ export default function Navbar() {
                   </nav>
                 </div>
                 <button
-                  type="button"
-                  className="mt-4 w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                >
-                  Button text
-                </button>
+            type="button"
+            className="mt-2 bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-700 hover:scale-105 active:scale-90"
+          >
+            Lets Connect
+          </button>
               </div>
             </div>
           </div>
