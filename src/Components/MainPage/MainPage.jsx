@@ -4,6 +4,7 @@ import ShuffleHero from '../Hero/ShuffleHero';
 import { Section1 } from '../Section1/Section1';
 import TechStack from '../TechStack/TechStack';
 import './MainPage.css';
+import { HeroParallaxDemo } from '../ui/HeroParallaxDemo';
 
 const MainPage = () => {
   const [shouldChangeBackground, setShouldChangeBackground] = useState(false);
@@ -52,6 +53,7 @@ const MainPage = () => {
           onMouseLeave={handleMouseLeave}
         >
           <TechStack />
+          <HeroParallaxDemo />
         </div>
       </div>
     </div>
