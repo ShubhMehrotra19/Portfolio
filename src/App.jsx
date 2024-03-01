@@ -2,6 +2,8 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import MainPage from './Components/MainPage/MainPage'
 import Linking from './Components/Linking/Linking';
+import About from './Components/About/About';
+import LampDemo from './Components/ui/LampDemo';
 
 function App() {
   let docTitle = document.title;
@@ -17,7 +19,8 @@ function App() {
     <Routes>
       <Route path='/' element={<MainPage />} />
       <Route path='/connect' element={<Linking />} />
-      <Route path='*' element={<h1>404 Not Found</h1>} />
+      <Route path='/about' element={<About />} />
+      <Route path='*' element={<LampDemo />} />
     </Routes>
     </BrowserRouter>
     </>

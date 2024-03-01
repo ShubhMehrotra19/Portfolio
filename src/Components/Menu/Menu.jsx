@@ -5,13 +5,7 @@ import { FiArrowRight } from "react-icons/fi";
 export const Menu = ({ toggleMenu }) => {
   return (
     <section className="bg-neutral-950 w-full opacity-90 p-4 md:p-8 md:mt-[-60px] pl-10">
-      <div className="mx-auto flex flex-col justify-start">
-        <NavLinkLink
-          heading="Discover"
-          subheading="Learn what I do otherwise"
-          imgSrc="https://images.pexels.com/photos/2397414/pexels-photo-2397414.jpeg?auto=compress&cs=tinysrgb&w=600"
-          to="#"
-        />
+      <div className="mx-auto flex flex-col justify-start mt-2">
         <NavLinkLink
           heading="AboutMe"
           subheading="Trust me, I'm cool"
@@ -22,13 +16,13 @@ export const Menu = ({ toggleMenu }) => {
           heading="Projects"
           subheading="What I can Deliver to you"
           imgSrc="https://images.pexels.com/photos/6963945/pexels-photo-6963945.jpeg?auto=compress&cs=tinysrgb&w=600"
-          to="#"
+          to="https://github.com/ShubhMehrotra19"
         />
         <NavLinkLink
           heading="Fun"
           subheading="Incase you're bored"
           imgSrc="https://images.pexels.com/photos/904276/pexels-photo-904276.jpeg?auto=compress&cs=tinysrgb&w=600"
-          to="#"
+          to="https://the-flappy-bird-game.vercel.app/"
         />
          <NavLinkLink
           heading="Back"
