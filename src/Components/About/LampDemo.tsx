@@ -14,7 +14,7 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br from-slate-400 to-slate-300 py-4 bg-clip-text text-center text-4xl font-semibold tracking-tight text-transparent md:text-9xl"
+        className="mt-8 bg-gradient-to-br from-slate-400 to-slate-300 py-4 bg-clip-text text-center text-4xl font-semibold tracking-tight text-transparent md:text-8xl"
       >
         Error 404 <br />
         Page Not Found

@@ -1,13 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Menu } from '../Menu/Menu';
 
 export default function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
 
   return (
     <div className="relative w-full bg-transparent mb-16">
@@ -16,7 +10,6 @@ export default function Navbar() {
           className='cursor-pointer h-12 w-12 hover:scale-105 active:rotate-[30deg] active:transition-all active:scale-95 100 ease-in-out'
           src="/images/Shubh_AvatarSmiling.png"
           alt=""
-          onClick={toggleMenu}
         />
 
         <div className="hidden lg:block">
@@ -30,12 +23,6 @@ export default function Navbar() {
           </NavLink>
         </div>
       </div>
-
-      {isMenuOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50">
-          <Menu toggleMenu={toggleMenu} />
-        </div>
-      )}
     </div>
   );
 }
