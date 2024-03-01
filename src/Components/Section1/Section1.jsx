@@ -6,9 +6,9 @@ export const Section1 = () => {
   return (
     <section className="mx-auto w-full mx-w-8xl px-4 py-12 text-slate-800">
       <div className="mb-8 flex flex-col items-start justify-between gap-4 md:flex-row md:items-end md:px-8">
-        <h2 className="max-w-lg text-4xl font-bold md:text-5xl">
-          <span className="text-slate-400"> Why am I an </span>
-          asset to your team?
+        <h2 className="max-w-lg text-6xl font-bold md:text-5xl">
+          <span className="text-slate-400"> Why can I be </span>
+          an asset to your team?
         </h2>
         <NavLink to='https://github.com/ShubhMehrotra19'
                  target='_blank' rel='noopener noreferrer' 

@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Navbar from '../Navbar/Navbar';
 import ShuffleHero from '../Hero/ShuffleHero';
 import { Section1 } from '../Section1/Section1';
 import TechStack from '../TechStack/TechStack';
-import './MainPage.css';
 import { HeroParallaxDemo } from '../ui/HeroParallaxDemo';
 import Section2 from '../Section2/Section2';
 import Footer from '../Section2/Footer';
@@ -39,6 +38,19 @@ const MainPage = () => {
     }, 300); 
   };
 
+  // Create refs for each section
+  const section1Ref = useRef(null);
+  const techStackRef = useRef(null);
+  const heroParallaxRef = useRef(null);
+  const section2Ref = useRef(null);
+
+  const scrollToSection = (ref) => {
+    ref.current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  };
+
   return (
     <div>
       <Navbar />
@@ -54,13 +66,21 @@ const MainPage = () => {
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <TechStack />
-          <HeroParallaxDemo />
+          <TechStack ref={techStackRef} />
+          <HeroParallaxDemo ref={heroParallaxRef} />
         </div>
-        <div className=' w-screen bg-slate-100'>
-        <Section2 />
-        <Footer />
+        <div className='w-screen bg-slate-100'>
+          <Section2 ref={section2Ref} />
+          <Footer />
         </div>
+      </div>
+      {/* Add navigation links that trigger scrolling */}
+      <div className="navigation-links">
+        <button onClick={() => scrollToSection(section1Ref)}>Discover</button>
+        <button onClick={() => scrollToSection(techStackRef)}>AboutMe</button>
+        <button onClick={() => scrollToSection(heroParallaxRef)}>Projects</button>
+        <button onClick={() => scrollToSection(section2Ref)}>Fun</button>
+        {/* You can add more buttons as needed */}
       </div>
     </div>
   );
