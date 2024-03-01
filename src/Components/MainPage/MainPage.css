@@ -1,0 +1,16 @@
+.default-background {
+    background-color: white; /* Set your default background color */
+    /* Add other styles as needed */
+  }
+  
+  .black-background {
+    background-color: black; /* Set the background color you want when scrolled down */
+    /* Add other styles as needed */
+  }
+  
+  /* Additional styles for TechStack component */
+  .main-page .black-background .tech-stack-background {
+    background-color: #212121; /* Set the background color for TechStack */
+    /* Add other styles as needed */
+  }
+  
