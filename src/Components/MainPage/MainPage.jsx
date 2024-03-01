@@ -5,6 +5,8 @@ import { Section1 } from '../Section1/Section1';
 import TechStack from '../TechStack/TechStack';
 import './MainPage.css';
 import { HeroParallaxDemo } from '../ui/HeroParallaxDemo';
+import Section2 from '../Section2/Section2';
+import Footer from '../Section2/Footer';
 
 const MainPage = () => {
   const [shouldChangeBackground, setShouldChangeBackground] = useState(false);
@@ -54,6 +56,10 @@ const MainPage = () => {
         >
           <TechStack />
           <HeroParallaxDemo />
+        </div>
+        <div className=' w-screen bg-slate-100'>
+        <Section2 />
+        <Footer />
         </div>
       </div>
     </div>
