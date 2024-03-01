@@ -11,6 +11,7 @@ import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
 const MainPage = () => {
   const [shouldChangeBackground, setShouldChangeBackground] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,9 +25,23 @@ const MainPage = () => {
       }
     };
 
+    const handleResize = () => {
+      const screenWidth = window.innerWidth;
+      // Adjust the breakpoint as needed
+      const mobileBreakpoint = 768;
+
+      setIsMobile(screenWidth < mobileBreakpoint);
+    };
+
     window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleResize);
+
+    // Initial check on mount
+    handleResize();
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
@@ -37,7 +52,7 @@ const MainPage = () => {
   const handleMouseLeave = () => {
     setTimeout(() => {
       setShouldChangeBackground(false);
-    }, 300); 
+    }, 300);
   };
 
   return (
@@ -50,17 +65,17 @@ const MainPage = () => {
           className="main-page"
           style={{
             backgroundColor: shouldChangeBackground ? 'black' : 'transparent',
-            transition: 'background-color .75s ease-in-out', 
+            transition: 'background-color .75s ease-in-out',
           }}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
           <TechStack />
-          <HeroParallaxDemo />
+          {!isMobile && <HeroParallaxDemo />}
         </div>
         <div className=' w-screen bg-slate-100'>
-        <Section2 />
-        <Footer />
+          <Section2 />
+          <Footer />
         </div>
       </div>
     </div>
