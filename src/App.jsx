@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import MainPage from './Components/MainPage/MainPage'
 import Linking from './Components/Linking/Linking';
 import About from './Components/About/About';
-import LampDemo from './Components/ui/LampDemo';
+import LampDemo from './Components/About/LampDemo';
 
 function App() {
   let docTitle = document.title;

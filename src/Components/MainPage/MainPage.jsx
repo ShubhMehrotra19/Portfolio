@@ -7,11 +7,9 @@ import './MainPage.css';
 import { HeroParallaxDemo } from '../ui/HeroParallaxDemo';
 import Section2 from '../Section2/Section2';
 import Footer from '../Section2/Footer';
-import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
 const MainPage = () => {
   const [shouldChangeBackground, setShouldChangeBackground] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,23 +23,11 @@ const MainPage = () => {
       }
     };
 
-    const handleResize = () => {
-      const screenWidth = window.innerWidth;
-      // Adjust the breakpoint as needed
-      const mobileBreakpoint = 768;
-
-      setIsMobile(screenWidth < mobileBreakpoint);
-    };
 
     window.addEventListener('scroll', handleScroll);
-    window.addEventListener('resize', handleResize);
-
-    // Initial check on mount
-    handleResize();
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
@@ -71,7 +57,7 @@ const MainPage = () => {
           onMouseLeave={handleMouseLeave}
         >
           <TechStack />
-          {!isMobile && <HeroParallaxDemo />}
+        <div className='md:block hidden'><HeroParallaxDemo /></div>
         </div>
         <div className=' w-screen bg-slate-100'>
           <Section2 />

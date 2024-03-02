@@ -1,9 +1,13 @@
 "use client";
 import React from "react";
-import { HeroParallax } from "./Hero-parralax";
+import { HeroParallax } from "./HeroParallax";
 
 export function HeroParallaxDemo() {
-  return <HeroParallax products={products} />;
+  return(
+    <div>
+      <HeroParallax products={products} />
+    </div>
+  );
 }
 export const products = [
   {
