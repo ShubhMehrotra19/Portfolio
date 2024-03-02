@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from '../Navbar/Navbar';
 import ShuffleHero from '../Hero/ShuffleHero';
 import { Section1 } from '../Section1/Section1';
 import TechStack from '../TechStack/TechStack';
@@ -7,6 +6,7 @@ import './MainPage.css';
 import { HeroParallaxDemo } from '../ui/HeroParallaxDemo';
 import Section2 from '../Section2/Section2';
 import Footer from '../Section2/Footer';
+import Navbar from '../Navbar/Navbar';
 
 const MainPage = () => {
   const [shouldChangeBackground, setShouldChangeBackground] = useState(false);

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const ShuffleHero = () => {
   return (
-    <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 mx-w-8xl mx-auto">
+    <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 mx-w-8xl mx-auto mt-16">
       <div>
         <span className="block mb-4 text-sm md:text-md text-indigo-500 font-medium">
           Hey There👋🏽
