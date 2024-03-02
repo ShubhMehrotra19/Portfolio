@@ -11,16 +11,16 @@ export function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Chefio",
-    link: "https://chefio.vercel.app",
+    title: "GDSC Form",
+    link: "https://github.com/Stoic-Coder2003/gdsc-_task_round_frontend_2",
     thumbnail:
-      "/images/projects/chefio.png",
+      "/images/projects/form.png",
   },
   {
-    title: "AdVITya'24",
-    link: "https://myadvitya24.vercel.app/",
+    title: "TODO List",
+    link: "https://github.com/ShubhMehrotra19/Todo-creator",
     thumbnail:
-      "/images/projects/advitya.png",
+      "/images/projects/todo.png",
   },
   {
     title: "Typing Speed Test",
@@ -29,22 +29,22 @@ export const products = [
       "/images/projects/typing.png",
   },
   {
+    title: "DOCS",
+    link: "https://github.com/ShubhMehrotra19/Docs-with-ReactJs",
+    thumbnail:
+      "/images/projects/docs.png",
+  },
+  {
+    title: "Medicol UI Design",
+    link: "https://www.figma.com/community/file/1263245891675291289",
+    thumbnail:
+      "/images/projects/medicol.png",
+  },
+  {
     title: "CueSource",
     link: "https://www.figma.com/proto/IjKBmZBNKESQa8DUguGnwV/CueSource-prototype?page-id=0%3A1&type=design&node-id=1-3&viewport=230%2C245%2C0.03&t=HjtfqGyH7I6yA1O3-1&scaling=min-zoom&starting-point-node-id=1%3A3&mode=design",
     thumbnail:
       "/images/projects/cuesource.png",
-  },
-  {
-    title: "GDSC UI",
-    link: "https://github.com/Stoic-Coder2003/gdsc-_task_round_frontend_1",
-    thumbnail:
-      "/images/projects/gdsc.png",
-  },
-  {
-    title: "Docs",
-    link: "https://github.com/ShubhMehrotra19/Docs-with-ReactJs",
-    thumbnail:
-      "/images/projects/docs.png",
   },
   {
     title: "Design Portfolio",
@@ -52,18 +52,17 @@ export const products = [
     thumbnail:
       "/images/projects/portfolio.png",
   },
-
   {
-    title: "TODO List",
-    link: "https://github.com/ShubhMehrotra19/Todo-creator",
+    title: "AdVITya'24",
+    link: "https://myadvitya24.vercel.app/",
     thumbnail:
-      "/images/projects/todo.png",
+      "/images/projects/advitya.png",
   },
   {
-    title: "GDSC Form",
-    link: "https://github.com/Stoic-Coder2003/gdsc-_task_round_frontend_2",
+    title: "Chefio",
+    link: "https://chefio.vercel.app",
     thumbnail:
-      "/images/projects/form.png",
+      "/images/projects/chefio.png",
   },
   {
     title: "Dice Game",
@@ -97,9 +96,9 @@ export const products = [
       "/images/projects/travel.png",
   },
   {
-    title: "Medicol UI Design",
-    link: "https://www.figma.com/community/file/1263245891675291289",
+    title: "GDSC UI",
+    link: "https://github.com/Stoic-Coder2003/gdsc-_task_round_frontend_1",
     thumbnail:
-      "/images/projects/medicol.png",
+      "/images/projects/gdsc.png",
   },
 ];

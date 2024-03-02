@@ -23,9 +23,9 @@ export const Section1 = () => {
         </NavLink>
       </div>
       <div className="mb-4 grid grid-cols-12 gap-4">
-        <BounceCard className="col-span-12 md:col-span-4 bg-gradient-to-br from-amber-400 to-orange-400 shadow-xl">
+        <BounceCard className="col-span-12 md:col-span-4 bg-amber-400 shadow-xl">
           <CardTitle><div className="flex justify-center items-center gap-2">I can design my websites <img className="h-12 w-12" src="/images/Shubh_AvatarSmiling.png" alt="" /></div></CardTitle>
-          <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-violet-400 to-indigo-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
+          <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-indigo-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
            <NavLink to='https://shubh-mehrotra-ashen.vercel.app/'
                     target="_blank"
                     rel="noopener noreferrer"
@@ -34,9 +34,9 @@ export const Section1 = () => {
            </NavLink>
           </div>
         </BounceCard>
-        <BounceCard className="col-span-12 md:col-span-8 bg-gradient-to-br from-green-400 to-emerald-400 shadow-xl">
+        <BounceCard className="col-span-12 md:col-span-8 bg-green-400 shadow-xl">
           <CardTitle><div className="flex gap-2 justify-center items-center">I can develop them into reality <img className="h-12 w-12" src="/images/Shubh_AvatarSmug.png" alt="" /></div></CardTitle>
-          <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-amber-400 to-orange-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
+          <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-amber-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
             <NavLink to='https://chefio.vercel.app/'
                      target='_blank'
                      rel="noopener noreferrer"
@@ -47,9 +47,9 @@ export const Section1 = () => {
         </BounceCard>
       </div>
       <div className="grid grid-cols-12 gap-4">
-        <BounceCard className="col-span-12 md:col-span-8 bg-gradient-to-br from-pink-400 to-red-400 shadow-xl">
+        <BounceCard className="col-span-12 md:col-span-8 bg-pink-300 shadow-xl">
           <CardTitle><div className="flex gap-2 justify-center items-center">I document my GitHub Readme <img className="h-12 w-12" src="/images/Shubh_AvatarAlmostAngry.png" alt="" /></div></CardTitle>
-          <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-green-400 to-emerald-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
+          <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-green-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
            <NavLink to='https://github.com/ShubhMehrotra19/chefio'
                     target='_blank' rel='noopener noreferrer'
            >
@@ -57,9 +57,9 @@ export const Section1 = () => {
            </NavLink>
           </div>
         </BounceCard>
-        <BounceCard className="col-span-12 md:col-span-4 bg-gradient-to-br from-violet-400 to-indigo-400 shadow-xl">
+        <BounceCard className="col-span-12 md:col-span-4 bg-indigo-400 shadow-xl">
           <CardTitle><div className="flex gap-2 justify-center items-center">I make them production based!<img className="h-12 w-12" src="/images/Shubh_AvatarDeepThinking.png" alt="" /></div></CardTitle>
-          <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-pink-400 to-red-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
+          <div className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-pink-300 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
            <img src="/images/projects/Projects.png" alt="" />
           </div>
         </BounceCard>
