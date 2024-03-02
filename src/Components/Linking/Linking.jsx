@@ -33,8 +33,8 @@ function Linking() {
             </div>
             <div className='flex md:flex-row flex-col items-center h-screen w-screen justify-center mx-5 absolute z-30'>
                 <div className='flex justify-center items-center w-1/2 mb-4 md:mb-0'>
-                    <p className='text-center font-semibold text-white md:text-[36px] text-[28px]'>
-                        Who needs a <span className='text-green-700'>Linktree</span>🌲 when you can code one for yourself? 🤷🏽‍♂️
+                    <p className='text-center font-semibold text-white md:text-[36px] text-[28px] px-3'>
+                        Who needs a <span className='text-green-700 font-mono'>Linktree</span>🌲 when you can code one for yourself? 🤷🏽‍♂️
                     </p>
                 </div>
                 <div className='flex flex-col justify-center items-center w-1/2'>
@@ -49,7 +49,7 @@ function Linking() {
                         {linkname.map((link, index) => (
                             <Linktab key={index} linkName={link} />
                         ))}
-                        <NavLink to='/' className='hover:scale-105 active:scale-90 py-2 px-4 text-white font-semibold cursor-pointer duration-200 transition-all ease-in-out bg-slate-900'>Go Back</NavLink>
+                        <NavLink to='/' className='hover:scale-105 active:scale-90 py-2 px-4 text-white text-center font-semibold cursor-pointer bg-black rounded-md duration-200 transition-all ease-in-out bg-slate-900'>Go Back</NavLink>
                     </div>
                 </div>
             </div>

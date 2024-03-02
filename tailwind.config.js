@@ -1,12 +1,12 @@
 const svgToDataUri = require("mini-svg-data-uri");
- 
+const withMT = require("@material-tailwind/react/utils/withMT");
 const colors = require("tailwindcss/colors");
 const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
 
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+module.exports =  withMT({
   content: [
 "./index.html",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
@@ -81,7 +81,7 @@ module.exports = {
       { values: flattenColorPalette(theme("backgroundColor")), type: "color" }
     );
   },
-};
+});
 
 // This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).
 function addVariablesForColors({ addBase, theme }) {

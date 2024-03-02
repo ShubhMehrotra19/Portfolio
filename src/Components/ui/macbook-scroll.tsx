@@ -140,7 +140,7 @@ export const Lid = ({
           style={{
             boxShadow: "0px 2px 0px 2px var(--neutral-900) inset",
           }}
-          className="absolute inset-0 bg-[#010101] rounded-lg flex items-center justify-center"
+          className="absolute inset-0 bg-[#282828] rounded-lg flex items-center justify-center"
         >
           <img className="h-12 w-12 rotate-12" src="/images/Shubh_AvatarSmiling.png" alt="" />
         </div>
@@ -154,9 +154,9 @@ export const Lid = ({
           transformStyle: "preserve-3d",
           transformOrigin: "top",
         }}
-        className="h-96 w-[32rem] absolute inset-0 bg-[#010101] rounded-2xl p-2"
+        className="h-96 w-[32rem] absolute inset-0 bg-[#151515] rounded-2xl p-2"
       >
-        <div className="absolute inset-0 bg-[#272729] rounded-lg" />
+        <div className="absolute inset-0 bg-[#131313] rounded-lg" />
         <img
             src='/images/projects/Singing.png'
             alt="me singing 🤭"
