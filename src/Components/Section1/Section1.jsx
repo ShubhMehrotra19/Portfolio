@@ -16,7 +16,7 @@ export const Section1 = () => {
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="whitespace-nowrap rounded-lg bg-slate-900 pl-4 font-medium text-white shadow-xl transition-colors hover:bg-slate-700 flex justify-center items-center"
+          className="whitespace-nowrap rounded-lg bg-black pl-4 font-medium text-white shadow-xl transition-colors hover:bg-gray-900 flex justify-center items-center"
         >
           Github <img className="scale-50" src="/images/icons/github.png" alt="" />
         </motion.button>
