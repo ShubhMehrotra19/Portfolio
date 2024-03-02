@@ -2,6 +2,7 @@ import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import Linktab from './Linktab';
 import './Linking.css';
+import {NavLink} from 'react-router-dom';
 
 const linkname = ['LinkedIn', 'Github', 'Figma', 'Twitter', 'Leetcode'];
 
@@ -48,6 +49,7 @@ function Linking() {
                         {linkname.map((link, index) => (
                             <Linktab key={index} linkName={link} />
                         ))}
+                        <NavLink to='/' className='hover:scale-105 active:scale-90 py-2 px-4 text-white font-semibold cursor-pointer duration-200 transition-all ease-in-out bg-slate-900'>Go Back</NavLink>
                     </div>
                 </div>
             </div>

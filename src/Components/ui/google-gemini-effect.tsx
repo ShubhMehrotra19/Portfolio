@@ -22,7 +22,7 @@ export const GoogleGeminiEffect = ({
   return (
     <div className={cn("sticky top-44", className)}>
       <p className="text-5xl md:text-7xl font-semibold pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300">
-        {title || `Hey There! 👋🏽`}
+        {title || `About me! 👋🏽`}
       </p>
       <svg
         width="1440"
